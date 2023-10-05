@@ -18,6 +18,25 @@ main {
   background-color: white;
 }
 
+.project-tiles {
+  display: grid;
+  grid-template-columns: 100%;
+  margin: 20px;
+  gap: 20px;
+}
+
+.project-photo {
+  background-color: green;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+}
+
 footer {
   background-color: lightblue;
 }
