@@ -14,6 +14,14 @@ img {
   max-width: 100%;
 }
 
+h1 {
+
+}
+
+.about-me {
+background-color: white;
+}
+
 main {
   background-color: white;
 }
@@ -39,4 +47,22 @@ main {
 
 footer {
   background-color: lightblue;
+  padding: 20px;
+}
+
+
+@media (min-width: 600px) {
+  img {
+    max-width: 300px;
+  }
+
+  .project-tiles {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  img {
+    max-width: 500px;
+  }
 }
