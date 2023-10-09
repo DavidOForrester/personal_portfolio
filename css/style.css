@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background: linear-gradient(to bottom, lightseagreen, white) ;
   max-width: 100%;
   padding: 20px;
 }
@@ -15,11 +15,11 @@ img {
 }
 
 h1 {
-
+  color: white;
 }
 
 .about-me {
-background-color: white;
+  background-color: white;
 }
 
 main {
@@ -46,10 +46,10 @@ main {
 }
 
 footer {
-  background-color: lightblue;
+  background-color: lightseagreen;
+  color: white;
   padding: 20px;
 }
-
 
 @media (min-width: 600px) {
   img {
