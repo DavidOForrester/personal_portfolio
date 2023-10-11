@@ -8,6 +8,7 @@ header {
   background: linear-gradient(to bottom, lightseagreen, white) ;
   max-width: 100%;
   padding: 20px;
+  position: relative;
 }
 
 img {
@@ -16,6 +17,12 @@ img {
 
 h1 {
   color: white;
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
 }
 
 .about-me {
@@ -58,6 +65,14 @@ footer {
 
   .project-tiles {
     grid-template-columns: 50% 50%;
+  }
+
+  .about-me {
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    top: 100px;
+    left: 350px;
   }
 }
 
